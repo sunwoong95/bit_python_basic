@@ -1,0 +1,15 @@
+*툴
+	python = pycharm,vscode,[쥬피터]
+	git scm = git config 설정법.
+git init - git hub 연동시작 [첫시작]
+git add - git hub 폴더에 추가
+git commit -m ""-git hub 컨펌 + 메시지 추가.
+git branch - M main -*brach*중요.
+git remote add origin https:// 깃허브 계정링크 - 계정링크 설정[첫시작]
+git push -u origin main -업로드 완료.
+git status - 상태 확인. 수정된게 있는지 파일이 새파일인지.
+
+brach!!
+pull request!!
+
+git clone git링크 - 코드 가져오기
