@@ -23,6 +23,5 @@ elif num % 3 == 2: # 세번째 조건
 else: # 다 아닐때
     print("else")
     print("다")
-
 print("아님")
 
