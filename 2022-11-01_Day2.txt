@@ -12,4 +12,4 @@ git status - 상태 확인. 수정된게 있는지 파일이 새파일인지.
 brach!!
 pull request!!
 
-git clone git링크 - 코드 가져오기
+git clone git링크 - 코드 가져오기.
