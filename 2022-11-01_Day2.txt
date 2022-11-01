@@ -13,3 +13,5 @@ brach!!
 pull request!!
 
 git clone git링크 - 코드 가져오기.
+
+코드 열 숫자 옆 빨간 불 디버깅 브레이크 포인트
