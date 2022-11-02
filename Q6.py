@@ -102,10 +102,10 @@
 
 # filter 필터링
 
-a = [0,1,3,5,7,9,10,11,13]
-b = [1,3,5,7,9,11,13]
-c = []
-for i in range(0,len(a)):
-    if a[i] % 2 > 0:
-        c.append(a[i])
-print(c)
+# a = [0,1,3,5,7,9,10,11,13]
+# b = [1,3,5,7,9,11,13]
+# c = []
+# for i in range(0,len(a)):
+#     if a[i] % 2 > 0:
+#         c.append(a[i])
+# print(c)
