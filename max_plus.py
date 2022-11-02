@@ -15,16 +15,22 @@ for i in range(0,len(a)):
         z = z + x[y]
     b.append(z)
 
-x,y = 0, 0
+c = b.copy()
+c.sort()
+c.reverse()
 
-while x < len(b):
-    if y < b[x]:
-        y = b[x]
-        x = x + 1
-    else:
-        x = x + 1
+print(b)
+print(c)
 
 for i in range(0,len(b)):
-    if y == b[i]:
+    if c[0] == b[i]:
+        print(f"열의 합이 가장 큰 열은 {i+1}열 입니다.")
+        print(f"{i+1}열{a[i]}의 합은 {b[i]}입니다.")
+
+b_max = max(b)
+
+
+for i in range(0,len(b)):
+    if b_max == b[i]:
         print(f"열의 합이 가장 큰 열은 {i+1}열 입니다.")
         print(f"{i+1}열{a[i]}의 합은 {b[i]}입니다.")
