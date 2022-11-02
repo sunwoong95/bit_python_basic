@@ -125,42 +125,42 @@
 #     save.append(tmp)
 # print(save)
 
-a = [44,42,23,12,29,27,48,78,21,32]
+# a = [44,42,23,12,29,27,48,78,21,32]
 
-for x in a:
-    answer = f"{x}는 "
-    if x%2==0 and x%3==0:
-            answer += "2와 3의 공배수 입니다."
-    elif x%2>0 or x%3>0:
-        answer += "2와 3의 공배수가 아닙니다."
-        if x%2==0:
-            answer += " 2의 배수 입니다."
-        elif x%3==0:
-            answer += " 3의 배수 입니다."
-    print(f"{answer}")
+# for x in a:
+#     answer = f"{x}는 "
+#     if x%2==0 and x%3==0:
+#             answer += "2와 3의 공배수 입니다."
+#     elif x%2>0 or x%3>0:
+#         answer += "2와 3의 공배수가 아닙니다."
+#         if x%2==0:
+#             answer += " 2의 배수 입니다."
+#         elif x%3==0:
+#             answer += " 3의 배수 입니다."
+#     print(f"{answer}")
 
-a = [44,42,23,12,29,27,48,78,21,32]
-tmp = {
-0:{"str":"2와 3의 공배수가 아닌 것은","count":0},
-2:{"str":"2와 3의 공배수가 인 것은","count":0},
-3:{"str":"2의 배수 인 것은","count":0},
-6:{"str":"3의 배수 인 것은","count":0}}
-for x in a:
-    if x%2==0 and x%3==0:
-        tmp[2]['count'] = tmp.get(2).get('count')+1
-        if x%2==0:
-            tmp[3]['count'] = tmp.get(3).get('count')+1
-        else:
-            tmp[6]['count'] = tmp.get(6).get('count')+1
-    else:
-        tmp[0]['count'] = tmp.get(0).get('count')+1
-        if x%2==0:
-            tmp[3]['count'] = tmp.get(3).get('count')+1
-        else:
-            tmp[6]['count'] = tmp.get(6).get('count')+1
-for key in list(tmp.keys()):
-    tmp2 = tmp.get(key)
-    print(f"{tmp2.get('str')}{tmp2.get('count')}개입니다")
+# a = [44,42,23,12,29,27,48,78,21,32]
+# tmp = {
+# 0:{"str":"2와 3의 공배수가 아닌 것은","count":0},
+# 2:{"str":"2와 3의 공배수가 인 것은","count":0},
+# 3:{"str":"2의 배수 인 것은","count":0},
+# 6:{"str":"3의 배수 인 것은","count":0}}
+# for x in a:
+#     if x%2==0 and x%3==0:
+#         tmp[2]['count'] = tmp.get(2).get('count')+1
+#         if x%2==0:
+#             tmp[3]['count'] = tmp.get(3).get('count')+1
+#         else:
+#             tmp[6]['count'] = tmp.get(6).get('count')+1
+#     else:
+#         tmp[0]['count'] = tmp.get(0).get('count')+1
+#         if x%2==0:
+#             tmp[3]['count'] = tmp.get(3).get('count')+1
+#         else:
+#             tmp[6]['count'] = tmp.get(6).get('count')+1
+# for key in list(tmp.keys()):
+#     tmp2 = tmp.get(key)
+#     print(f"{tmp2.get('str')}{tmp2.get('count')}개입니다")
 
 
 # a = [44,42,23,12,29,27,48,78,21,32]
@@ -189,3 +189,4 @@ for key in list(tmp.keys()):
 # print(b)
 # print("짝수는 {len(c)+1}개 입니다.")
 # print("홀수는 {len(d)+1}개 입니다.")
+
