@@ -23,6 +23,11 @@ def solution(n:int):
         num = b[j]
         for i in str(num):
             c.append(i)
+    for k in range(0,len(c)):
+        if c[k] == "1":
+            count1 += 1
+        elif c[k] == "9":
+            count9 += 1
 
-    return c
+    return f"페이지는 {n} \n1의 개수는 {count1} \n9의 개수는 {count9}"
 print(solution(19))
