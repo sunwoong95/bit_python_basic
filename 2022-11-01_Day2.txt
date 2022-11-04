@@ -15,3 +15,6 @@ pull request!!
 git clone git링크 - 코드 가져오기.
 
 코드 열 숫자 옆 빨간 불 디버깅 브레이크 포인트!
+람다 filter, map, reduce -> 편의성을 위한 기능.
+재귀함수
+원본은 건드리지않는게 좋다.

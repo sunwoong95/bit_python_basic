@@ -1,1 +1,0 @@
-람다 filter, map, reduce -> 편의성을 위한 기능.
